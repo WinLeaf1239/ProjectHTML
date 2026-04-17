@@ -142,3 +142,44 @@ h3{
     margin: 0 auto;
     text-align: center;
 }
+
+.about-cards{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.about-cards-city{
+    margin-right: 50px;
+}
+
+.about-cards-city-text{
+    font-size:20px;
+    opacity: 60%;
+}
+
+.about-cards-date{
+    opacity: 60%;
+}
+
+.about-cards-price{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about-cards-star{
+    font-size: 18px;   
+}
+
+.about-cards-star::before{
+    content: url(images/Star\ 3.png);
+    padding-right: 10px;
+}
+
+.about-cards-city::before{
+    content: url(/images/Vector.png);   
+}
+
+.about-cards-flext{
+    display: flex;
+    align-items: center;
+}
